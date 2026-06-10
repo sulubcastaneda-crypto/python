@@ -14,8 +14,8 @@ cantidad = int(input("ingrese la cantidad de productos comprados: "))
 
 #calculos
 subtotal = precio_unitario * cantidad
-monto_descuneto = subtotal * descuento
-subtotal_con_descuento = subtotal - monto_descuento
+monto_descuneto = subtotal * Descuento
+subtotal_con_descuento = subtotal - monto_descuneto
 monto_iva = subtotal_con_descuento * iva
 total = subtotal_con_descuento + monto_iva
 
