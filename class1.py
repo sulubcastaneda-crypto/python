@@ -20,13 +20,13 @@ monto_iva = subtotal_con_descuento * iva
 total = subtotal_con_descuento + monto_iva
 
 #mostrar tipos de datos con type()
-print("\n--- tipos de datos ---")
+print("--- tipos de datos ---")
 print("tipos de datos de 'nombre_cliente':", type(nombre_cliente))
 print("tipo de dato de 'precio_unitario':", type(precio_unitario))
 print("tipo de dato de 'cantidad':",type(cantidad))
 
 #generar ticket de compra
-print("\n--- ticket de compra ---")
+print(" ticket de compra")
 print("cliente:", nombre_cliente)
 print("producto:", nombre_producto)
 print("precio unitario: $", precio_unitario)
@@ -39,3 +39,4 @@ print("iva (16%): $", monto_iva)
 print("total a pagar: $", total)
 print("-----------------------------")
 print("¡gracias por su compra")
+    
